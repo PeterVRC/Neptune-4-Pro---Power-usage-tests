@@ -30,15 +30,16 @@ It SHOULD have been supplied with a 500W power supply at least!
    The X,Y,Z Axis have not been Homed, so the Stepper Motors are not in
    "Hold" mode now, thus less total power is in use - for now.
 
-2. Idle Power when the Steppers are being "Held", which is the more normal
-   state they are typically in. Once Homed the Steppers are left "Held":
-   
-   22.5W
 
-3. Home ALL.  The X&Y Axis move together, but then only the Z Axis moves to
+2. Home ALL.  The X&Y Axis move together, but then only the Z Axis moves to
    complete this:
    
    31W
+
+3. Idle Power when the Steppers are being "Held", which is the more normal
+   state they are typically in - especially after being "Homed" (all).
+   
+   22.5W
 
 4. X or Y Axis motion - medium speed. Each Stepper Motor uses 5W - 7W more
    than at "hold" to move at a medium speed pace.
@@ -65,11 +66,11 @@ It SHOULD have been supplied with a 500W power supply at least!
 
     It takes about 3 minutes to reach the Target Temp.
 
-10. Heated Bed - OUTER. Target 60degC - Max heating being used:
+9. Heated Bed - OUTER. Target 60degC - Max heating being used:
    
    375W, reducing to 360W quite quickly as it heats up.
 
-11. BOTH the Hotend and the BOTH Heated Beds operating. Hotend 200DegC, Beds 60degC:
+10. BOTH the Hotend and the BOTH Heated Beds operating. Hotend 200DegC, Beds 60degC:
 
     360W, reducing to 340W quite quickly, then down to 295W for the main heating
     time (2mins approx).
@@ -77,14 +78,14 @@ It SHOULD have been supplied with a 500W power supply at least!
     Then it can run across a range of just 40W to 200W, as it maintains the
     Target Temps.
 
-12. One typical printing case. A reasonably large object that then uses
+11. One typical printing case. A reasonably large object that then uses
     reasonably large X & Y Axis moves:
 
     Heating up:
 
     Printing:
 	
-13. One typical printing case. A reasonably small object that then uses
+12. One typical printing case. A reasonably small object that then uses
     reasonably small X & Y Axis moves:
 
     Heating up:
