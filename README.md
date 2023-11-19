@@ -13,10 +13,7 @@ being heated up, at the same time. You typically would NOT be printing at
 this time. But you yourself MIGHT happen to Home the printer at that same
 time - which would add some small extra power amount to the total.
 
-You can see that the N4Pro never really runs over about 290W at the very
-maximums you would ever really use at once.  That is under the manufacturers
-recommended maximum, and should be low ripple/noise, good stability, and
-good for long term lifespan.
+You can see that the N4Pro reaches 360W region
 
 
 1. Powered on, fully booted, and sitting idle:
@@ -37,46 +34,52 @@ good for long term lifespan.
    31W
 
 4. X or Y Axis motion - medium speed. Each Stepper Motor uses 5W - 7W more
-	 than at "hold" to move at a medium speed pace.
+   than at "hold" to move at a medium speed pace.
 
 5. Z Axis motion. The Z Axis only uses 1W more than for HOLD, when moved.
 
 6. Hotend Target 200degC - Max Heating being used:
-   
-	 80W, for almost the whole way to Target Temp.
-   
-	 It takes 1.1 minutes to reach Target Temp and then uses approx:
-	 40W regions in short runs, to maintain the Target Temp.
+
+   80W, for almost the whole way to Target Temp.
+
+   It takes 1.1 minutes to reach Target Temp and then uses approx:
+
+   40W regions in short runs, to maintain the Target Temp.
 
 7. Heated Beds (BOTH) Target 60degC - Max heating being used.
 
    305W, reducing to the 272W region quite quickly as it heats up.
    
-	 It takes 2.5 Mins to reach target and uses 272W for the majority of the way.
+   It takes 2.5 Mins to reach target and uses 272W for the majority of the way.
 
-8. Heated Bed - INNER. Target 60degC - Max heating being used.
-	 375W, reducing to 360W quite quickly as it heats up.
+8. Heated Bed - INNER. Target 60degC - Max heating being used:
+
+   375W, reducing to 360W quite quickly as it heats up.
 
 9. Heated Bed - OUTER. Target 60degC - Max heating being used:
-    
-	 375W, reducing to 360W quite quickly as it heats up.
+   
+   375W, reducing to 360W quite quickly as it heats up.
 
-10.	BOTH the Hotend and the BOTH Heated Beds operating. Hotend 200DegC, Beds 60degC:
+10. BOTH the Hotend and the BOTH Heated Beds operating. Hotend 200DegC, Beds 60degC:
 
+    360W, reducing to 340W quite quickly, then down to 295W for the main heating
+    time (2mins approx).
 
-11. One typical printing case. A reasonably large object that then uses
-	  reasonably large X & Y Axis moves:
+    Then it can run across a range of just 40W to 200W, as it maintains the
+    Target Temps.
 
-	  Heating up:
+12. One typical printing case. A reasonably large object that then uses
+    reasonably large X & Y Axis moves:
+
+    Heating up:
 
     Printing:
 	
+13. One typical printing case. A reasonably small object that then uses
+    reasonably small X & Y Axis moves:
 
-12.	One typical printing case. A reasonably small object that then uses
-	  reasonably small X & Y Axis moves:
-	
     Heating up:
-	
+
     Printing:
 	
 
