@@ -13,8 +13,15 @@ being heated up, at the same time. You typically would NOT be printing at
 this time. But you yourself MIGHT happen to Home the printer at that same
 time - which would add some small extra power amount to the total.
 
-You can see that the N4Pro reaches 360W region
+You can see that the N4Pro reaches as high as the 375W region for various
+cases of heating the Bed/s, or with the Hotend heating also. This is OVER
+the manufacturers recommended "80% maximum" - that "320W" maximum. The
+power supply will COPE with up to 400W, but its efficiency, operating
+temperatures, Voltage stability, and lifespan will be compromised when
+the load level is over that "320W".
+It SHOULD have been supplied with a 500W power supply at least!
 
+.
 
 1. Powered on, fully booted, and sitting idle:
    
