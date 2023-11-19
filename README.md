@@ -61,13 +61,15 @@ It SHOULD have been supplied with a 500W power supply at least!
 
 8. Heated Bed - INNER. Target 60degC - Max heating being used:
 
-   375W, reducing to 360W quite quickly as it heats up.
+   137W, reducing to 130W quite quickly as it heats up.
 
-9. Heated Bed - OUTER. Target 60degC - Max heating being used:
+    It takes about 3 minutes to reach the Target Temp.
+
+10. Heated Bed - OUTER. Target 60degC - Max heating being used:
    
    375W, reducing to 360W quite quickly as it heats up.
 
-10. BOTH the Hotend and the BOTH Heated Beds operating. Hotend 200DegC, Beds 60degC:
+11. BOTH the Hotend and the BOTH Heated Beds operating. Hotend 200DegC, Beds 60degC:
 
     360W, reducing to 340W quite quickly, then down to 295W for the main heating
     time (2mins approx).
