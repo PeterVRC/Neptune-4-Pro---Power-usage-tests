@@ -24,7 +24,7 @@ good for long term lifespan.
 	The X,Y,Z Axis have not been Homed, so the Stepper Motors are not in
 	"Hold" mode now, thus less total power is in use - for now.
 
-2.    Idle Power when the Steppers are being "Held", which is the more normal
+3.    Idle Power when the Steppers are being "Held", which is the more normal
     state they are typically in. Once Homed the Steppers are left "Held":
 	22.5W
 
