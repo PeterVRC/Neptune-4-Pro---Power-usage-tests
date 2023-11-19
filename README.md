@@ -1,6 +1,3 @@
-# Neptune-4-Pro---Power-usage-tests
-Tests of how much Power the N4Pro uses for various operations it can do. 
-
 Elegoo Neptune 4 Pro - Power usage
 ==================================
 All the listed power numbers are the TOTAL USED at any given time/test.
@@ -68,7 +65,7 @@ It SHOULD have been supplied with a 500W power supply at least!
 
 9. Heated Bed - OUTER. Target 60degC - Max heating being used:
    
-   375W, reducing to 360W quite quickly as it heats up.
+   176W, for the majority of the time as it heats up.
 
 10. BOTH the Hotend and the BOTH Heated Beds operating. Hotend 200DegC, Beds 60degC:
 
