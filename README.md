@@ -83,11 +83,16 @@ It SHOULD have been supplied with a 500W power supply at least!
     Printing:
 	
 12. One typical printing case. A reasonably small object that then uses
-    reasonably small X & Y Axis moves:
+    reasonably small X & Y Axis moves - The Elegoo supplied 18min Benchy.
 
-    Heating up:
+    Heating up:  80W... then 330W... then 220W... then 50W...
 
-    Printing:
+    Not really excessive in the recommended maximum Power levels used.
+
+    Printing:    55W... then 80W... then 92W... generally in the 78W - 85W region.
+
+    But later in the print, about 50% region, it used 230W region for quite a long period.
+    It would have been heating the Bed Heaters at maximums for that period.
 	
 
 
